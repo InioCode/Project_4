@@ -13,7 +13,6 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class CheckAnswerFAQ {
     private WebDriver driver = null;
-    private final String[] ANSWERS = new String[8];
     private final int QUESTION_NUMBER;
     private final String QUESTION_ANSWER;
 
